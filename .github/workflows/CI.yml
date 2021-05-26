@@ -31,8 +31,8 @@ jobs:
       - name: Build APK
         run: flutter build apk
         
-      - name: Build IOS
-        run: flutter build ios
+      # - name: Build IOS
+      #   run: flutter build ios
 
       - name: Build Web
         run: flutter build web
