@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:english_words/english_words.dart';
 import 'constantes.dart';
 
+
 class DyanmicLNList extends StatefulWidget {
   @override
   State createState() => new DyanmicLNListImplementation();
@@ -19,7 +20,7 @@ class DyanmicLNListImplementation extends State<DyanmicLNList> {
   Widget build(BuildContext ctxt) {
     return new Scaffold(
       appBar: AppBar(
-        title: new Text(friendlyAppName),
+        title: new Text(Constants.friendlyAppName),
         centerTitle: true,
       ),
       body: new Column(

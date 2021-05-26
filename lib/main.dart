@@ -8,7 +8,7 @@ class LightNovelSnifferApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: friendlyAppName,
+      title: Constants.friendlyAppName,
       theme: ThemeData(
         primarySwatch: Colors.cyan,
       ),

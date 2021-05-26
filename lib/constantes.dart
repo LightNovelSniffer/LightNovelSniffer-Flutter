@@ -1,1 +1,3 @@
-const friendlyAppName = "Light Novel Sniffer";
+class Constants {
+  static const friendlyAppName = "Light Novel Sniffer";
+}
